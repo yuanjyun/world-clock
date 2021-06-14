@@ -1,0 +1,35 @@
+@import 'bootstrap/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+*{
+    font-family: 'Open Sans';
+}
+
+.content{
+    padding:72px 0 78px;
+    .title{
+        width:537px;
+        font-size:72px;
+    }
+    .clock{
+        width:540px;
+        li{
+            height:130px;
+        }
+        .black{
+            background-color: #000;
+        }
+        .place{
+            font-size:36px;
+        }
+        .date{
+            font-style:italic;
+        }
+        .time{
+            font-size:72px;
+        }
+    }
+}
+
+// d-flex flex-column flex-wrap
+
